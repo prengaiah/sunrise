@@ -1,0 +1,39 @@
+#home-logo{
+  margin-top: 6em;
+  margin-bottom: 3em;
+}
+
+#home-heading>h1{
+	font-size:2em;
+}
+
+#home-subtitle>h2{
+  font-size: 1.75em;
+}
+
+.about .about-header {
+  font-size: 4em;
+}
+
+
+footer li{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#other-footer-link {
+  width: 33%;
+}
+
+
+.art-header {
+  height: 20em;
+}
+
+
+.post-title {
+  font-size: 3.75em;
+}
+.post-subtitle, .art-time{
+  font-size: 1em;
+}

@@ -1,0 +1,18 @@
+<footer class="footer">
+  <ul>
+    <li id="footer-author"><span class="small">By </span><a href="http://about.me/param.rengaiah">Param Rengaiah</a></li>
+    <li id="footer-nav">
+      {% if page.previous.url %} 
+      <a href="{{ page.previous.url }} ">Previous</a> 
+      {% endif %}
+      {% if page.previous.url and page.next.url %} 
+      / 
+      {% endif %}
+      {% if page.next.url %} 
+      <a href="{{ page.next.url }} ">Next</a> 
+      {% endif %}
+      &nbsp;
+    </li>
+    <li id="footer-host"><span class="small">Hosted on </span><a href="https://github.com/prengaiah/sunrise">GitHub</a></li>
+  </ul>
+</footer>

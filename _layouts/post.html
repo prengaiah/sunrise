@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  <div class="container">
+    {% include nav.html %}
+    <article class="art {% unless page.header-image %}simple{% endunless %}">
+      <header class="art-header {% if page.header-image %} white" style="background-image: url(/public/img/articles/{{ page.header-image }}) {% endif %}"> <!-- white -->
+        <ul class="art-header-inner">
+            <li class="art-time">{{ page.date | date: "%B %d, %Y" }}</li>
+            <li class="post-title">{{ page.title | upcase}}</li>
+            <li class="post-subtitle">{{ page.subtitle }}</li>
+          </ul>
+      </header>
+      <section class="post-body">
+          {{ content }}
+      </section>
+    </article>
+    {% include footer.html %}
+  </div>
+</body>
+</html>

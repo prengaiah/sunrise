@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Param Rengaiah</title>
+    <description>Another Jekyll Blog Template</description>
+    <link>https://github.com/prengaiah/sunrise</link>
+    
+      <item>
+        <title>POST title</title>
+        <description>&lt;h2 id='how_to_setup_jekyll_blog_using_sunrise'&gt;How to setup Jekyll Blog using Sunrise&lt;/h2&gt;</description>
+        <published>Fri Aug 24 00:00:00 -0500 2012</published>
+        <link>https://github.com/prengaiah/sunrise/blog/documentation/setting-up-jekyll-site.html</link>
+      </item>
+    
+      <item>
+        <title>Overview</title>
+        <description>&lt;br /&gt;&lt;br /&gt;
+&lt;h2 id='complete_freedom'&gt;Complete Freedom&lt;/h2&gt;
+
+&lt;p&gt;Struture is good but Freedom is more important. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id='designers_welcome'&gt;Designers Welcome&lt;/h2&gt;
+
+&lt;p&gt;Jekyll is not just developers. Designers included. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id='responsive_from_the_groundup'&gt;Responsive from the ground-up&lt;/h2&gt;
+
+&lt;p&gt;No pixels here. Fonts are in ems. Images are 100% scaled. Retina included. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id='least_dependency'&gt;Least dependency&lt;/h2&gt;
+
+&lt;p&gt;Just need Ruby and your creativity. Nothing else. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id='jquery_included'&gt;JQuery included&lt;/h2&gt;
+
+&lt;p&gt;Just add water. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id='fully_configured'&gt;Fully Configured&lt;/h2&gt;
+
+&lt;p&gt;Start with a meta post to impress your friends &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id='sass_and_less_supported_well__kindof'&gt;SASS and LESS supported, well .. kind-of&lt;/h2&gt;
+
+&lt;p&gt;Use the awesome combination of LiveReload and Sublime Text and you are good to go. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id='pagination__category_support_builtin'&gt;Pagination / Category support built-in&lt;/h2&gt;
+
+&lt;p&gt;Others will be added in the near futuer (well.. not in the near near future) &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;</description>
+        <published>Fri Aug 24 00:00:00 -0500 2012</published>
+        <link>https://github.com/prengaiah/sunrise/blog/documentation/overview-of-sunrise.html</link>
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,290 @@
+/* Body
+================================================== */
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+section, aside, article {
+  text-align: left;
+}
+
+html {
+    background-color: #8ca0ab;
+    background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+  	font-size: 100%; /* Base font size: 16px */
+	  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+ 
+    text-align: center;
+}
+/* Utilities */
+
+.container {
+  width: 100%;
+}
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+/* Fonts */
+
+/* Refer 
+http://www.webtypography.net/Harmony_and_Counterpoint/Size/3.1.1/ 
+for explanation 
+*/
+
+h1 {
+  font-size: 2.25em;
+  font-weight: 700;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
+
+h2 {
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.125em;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 0.875em;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.25em;
+}
+
+
+.small {
+  font-size: 0.75em;
+}
+
+
+/* Home Page */
+
+#home-logo{
+  margin-top: 8em;
+  text-align: center;
+}
+
+#home-heading {
+  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size:2.25em;
+  padding: 0.5em 0 0.5em 0;
+
+}
+#home-heading>h1{
+  font-weight: 400;
+  text-align: center;
+}
+#home-subtitle>h2{
+  font-family: 'Lato', 'Open Sans', Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#home-navigation {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+
+#home-navigation li{
+  display: inline;
+  padding: 0 1em 0 1em;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgba(255, 0, 0, 0.8);
+}
+
+/* Footer */
+
+.home-footer {
+  position: fixed;
+  bottom:-1px;
+  height: 1.5em;
+  width: 100%;
+  padding:0;
+  margin-top: 1.7em;
+  border-top: solid 1px #666666;
+  font-size: 0.875em;
+  text-transform: uppercase;
+
+}
+
+
+footer {
+  position: absolute;
+  height: 1.5em;
+  width: 100%;
+  padding:0;
+  border-top: solid 1px #666666;
+  font-size: 0.875em;
+  text-transform: uppercase;
+}
+
+footer ul{
+    width: 100%;
+}
+
+footer li{
+    padding-left: 1em;
+    padding-right: 1em;
+    text-transform: uppercase;  
+    display: inline;  
+}
+
+footer li:first-child{
+  float: left;  
+}
+
+footer li:last-child{
+  float: right;  
+}
+
+
+#footer-host{
+  width: 20%;
+}
+
+#footer-author{
+   width: 20%;
+}
+
+#footer-nav {
+  width: 58%;
+}
+
+#other-footer-link {
+  width: 33%;
+}
+
+/* Navidation */
+
+.nav {
+  position: relative;
+  border-bottom: solid 1px #666666;
+  z-index: 2;
+}
+
+.white {
+    border-bottom-color: rgba(255, 255, 255, 0.3);
+}
+
+.nav .white {
+    border-bottom-color: rgba(255, 255, 255, 0.3);
+}
+
+.nav .top-logo {
+  float: left;
+}
+
+.nav .top-logo>h1 {
+   background: url("/public/img/icon-s-57.png") no-repeat top center;
+   height: 57px;
+   width: 57px;
+   text-indent: -9999px;
+}
+
+.nav .top-nav {
+  margin-right: 0.5em;
+  float:right;
+  line-height: 57px;
+}
+
+.nav .top-nav>li {
+  text-transform: uppercase;
+  display: none;
+}
+/* About Page */
+
+.about {
+  text-align: left;
+  margin: 2em;
+}
+
+.about .about-header {
+  font-size: 2.75em;
+  font-weight: 300;
+  text-transform: none;
+}
+
+.art {
+    margin-top: -57px;
+}
+
+/* Header */
+.art-header {
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+
+/* Contains the time, title and subtitle for an article */
+.art-header-inner {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.art-time,
+.post-title,
+.post-subtitle {
+  text-transform: uppercase;
+  text-align: center;
+  color:rgba(255, 255, 255, 1);
+  text-shadow: 1px 1px #333;
+}
+
+
+.art-time, .post-subtitle {
+  font-size: 0.75em;
+  letter-spacing: 0.25em;
+  margin-top: 0.25em;
+}
+
+
+.post-title {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+
+
+.post-body h1, .post-body h2, .post-body h3, .post-body h4, .post-body h5, 
+.post-body h6, .post-body p, .post-body blockquote, .post-body pre,
+.post-body a, .post-body abbr, .post-body address, .post-body big, 
+.post-body cite, .post-body code, .post-body section, .post-body aside, 
+.post-body article {
+  padding: 0.25em  0.25em  0.25em  0.25em;
+}
+
+
