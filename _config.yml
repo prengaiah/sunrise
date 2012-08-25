@@ -1,5 +1,6 @@
 name: Param Rengaiah
 description: Another Jekyll Blog Template
-url: https://github.com/prengaiah/sunrise
+baseurl: http://prengaiah.github.com/sunrise/
+url: http://prengaiah.github.com/sunrise
 auto: true
 permalink: /blog/:categories/:title.html

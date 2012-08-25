@@ -16,6 +16,11 @@ footer {
   height: 32em;
 }
 
+.post-body {
+  width: 70%;
+  margin-left: 15%;
+}
+
 .post-title {
   font-size: 5em;
 }

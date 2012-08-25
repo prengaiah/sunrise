@@ -30,6 +30,9 @@ footer li{
   height: 20em;
 }
 
+.post-body {
+  width: 75%;
+}
 
 .post-title {
   font-size: 3.75em;

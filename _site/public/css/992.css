@@ -10,3 +10,9 @@
 .about .about-header {
   font-size: 6.25em;
 }
+
+.post-body {
+  width: 65%;
+  margin-left: 20%;
+
+}

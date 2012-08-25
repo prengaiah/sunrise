@@ -278,6 +278,10 @@ footer li:last-child{
   font-weight: 400;
 }
 
+.post-body {
+  width: 80%;
+  margin-left: 5%;
+}
 
 .post-body h1, .post-body h2, .post-body h3, .post-body h4, .post-body h5, 
 .post-body h6, .post-body p, .post-body blockquote, .post-body pre,
