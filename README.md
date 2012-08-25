@@ -1,4 +1,6 @@
 # A design focussed Jekyll template
-This is my attempt aat creating a plain and simple, but elegant template for Jekyll blog.
+<br>
 
-More documetstion to follow. Feel freee to fork and play.
+You should conside creating your next website using just HTML/CSS/JS. And when you do so, give Jekyll and Sunrise a try. You will be surprised to see the power and simplicity it brings.
+
+Back to the Basics.
