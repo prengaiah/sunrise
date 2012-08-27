@@ -1,3 +1,4 @@
+{% assign base = site.baseurl %}
 <!DOCTYPE html>
 <html>
 {% include head.html %}
@@ -5,7 +6,7 @@
   <div class="container">
     {% include nav.html %}
     <article class="art {% unless page.header-image %}simple{% endunless %}">
-      <header class="art-header {% if page.header-image %} white" style="background-image: url(/public/img/articles/{{ page.header-image }}) {% endif %}"> <!-- white -->
+      <header class="art-header {% if page.header-image %} white" style="background-image: url({{base}}/public/img/articles/{{ page.header-image }}) {% endif %}"> <!-- white -->
         <ul class="art-header-inner">
             <li class="art-time">{{ page.date | date: "%B %d, %Y" }}</li>
             <li class="post-title">{{ page.title | upcase}}</li>
