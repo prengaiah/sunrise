@@ -210,7 +210,7 @@ footer li:last-child{
 }
 
 .nav .top-logo>h1 {
-   background: url("/public/img/icon-s-57.png") no-repeat top center;
+   background: url("{{base}}/public/img/icon-s-57.png") no-repeat top center;
    height: 57px;
    width: 57px;
    text-indent: -9999px;
